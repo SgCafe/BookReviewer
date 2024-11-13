@@ -11,13 +11,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\BookReviewer.Application\BookReviewer.Application.csproj" />
     <ProjectReference Include="..\BookReviewer.Core\BookReviewer.Core.csproj" />
     <ProjectReference Include="..\BookReviewer.Infrastructure\BookReviewer.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
